@@ -1,0 +1,266 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1779227618052,
+  "projectRoot": "/mnt/c/Users/tyler/projects/ai-api-proxy",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": "npx tsc --noEmit 2>&1",
+    "testCommand": "npx vitest run 2>&1",
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [],
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {},
+  "hotPaths": [
+    {
+      "path": "tests/integration/responses-endpoint.test.ts",
+      "accessCount": 7,
+      "lastAccessed": 1779229773672,
+      "type": "file"
+    },
+    {
+      "path": "src/routes/responses.ts",
+      "accessCount": 4,
+      "lastAccessed": 1779229393154,
+      "type": "file"
+    },
+    {
+      "path": "src/routes/messages.ts",
+      "accessCount": 4,
+      "lastAccessed": 1779229419500,
+      "type": "file"
+    },
+    {
+      "path": "API_Docs.md",
+      "accessCount": 3,
+      "lastAccessed": 1779227983773,
+      "type": "file"
+    },
+    {
+      "path": "README.md",
+      "accessCount": 2,
+      "lastAccessed": 1779227986675,
+      "type": "file"
+    },
+    {
+      "path": "tests/unit/xai-to-anthropic-request.test.ts",
+      "accessCount": 2,
+      "lastAccessed": 1779229705492,
+      "type": "file"
+    },
+    {
+      "path": "package.json",
+      "accessCount": 1,
+      "lastAccessed": 1779228499777,
+      "type": "file"
+    },
+    {
+      "path": "tsconfig.json",
+      "accessCount": 1,
+      "lastAccessed": 1779228506690,
+      "type": "file"
+    },
+    {
+      "path": ".env.example",
+      "accessCount": 1,
+      "lastAccessed": 1779228515681,
+      "type": "file"
+    },
+    {
+      "path": "config/default.json",
+      "accessCount": 1,
+      "lastAccessed": 1779228525182,
+      "type": "file"
+    },
+    {
+      "path": "vitest.config.ts",
+      "accessCount": 1,
+      "lastAccessed": 1779228528522,
+      "type": "file"
+    },
+    {
+      "path": "src/types/xai.ts",
+      "accessCount": 1,
+      "lastAccessed": 1779228592341,
+      "type": "file"
+    },
+    {
+      "path": "src/types/anthropic.ts",
+      "accessCount": 1,
+      "lastAccessed": 1779228621776,
+      "type": "file"
+    },
+    {
+      "path": "src/types/shared.ts",
+      "accessCount": 1,
+      "lastAccessed": 1779228634140,
+      "type": "file"
+    },
+    {
+      "path": "src/config/index.ts",
+      "accessCount": 1,
+      "lastAccessed": 1779228657003,
+      "type": "file"
+    },
+    {
+      "path": "src/config/model-map.ts",
+      "accessCount": 1,
+      "lastAccessed": 1779228663913,
+      "type": "file"
+    },
+    {
+      "path": "src/adapters/shared/messages.ts",
+      "accessCount": 1,
+      "lastAccessed": 1779228821737,
+      "type": "file"
+    },
+    {
+      "path": "src/adapters/shared/tools.ts",
+      "accessCount": 1,
+      "lastAccessed": 1779228841280,
+      "type": "file"
+    },
+    {
+      "path": "src/adapters/shared/content-blocks.ts",
+      "accessCount": 1,
+      "lastAccessed": 1779228858860,
+      "type": "file"
+    },
+    {
+      "path": "src/services/state-manager.ts",
+      "accessCount": 1,
+      "lastAccessed": 1779228997579,
+      "type": "file"
+    },
+    {
+      "path": "src/adapters/xai-to-anthropic/request.ts",
+      "accessCount": 1,
+      "lastAccessed": 1779229038494,
+      "type": "file"
+    },
+    {
+      "path": "src/adapters/xai-to-anthropic/response.ts",
+      "accessCount": 1,
+      "lastAccessed": 1779229058072,
+      "type": "file"
+    },
+    {
+      "path": "src/services/upstream-client.ts",
+      "accessCount": 1,
+      "lastAccessed": 1779229077799,
+      "type": "file"
+    },
+    {
+      "path": "src/middleware/auth.ts",
+      "accessCount": 1,
+      "lastAccessed": 1779229130662,
+      "type": "file"
+    },
+    {
+      "path": "src/middleware/error-handler.ts",
+      "accessCount": 1,
+      "lastAccessed": 1779229137137,
+      "type": "file"
+    },
+    {
+      "path": "src/middleware/request-logger.ts",
+      "accessCount": 1,
+      "lastAccessed": 1779229143270,
+      "type": "file"
+    },
+    {
+      "path": "src/adapters/anthropic-to-xai/request.ts",
+      "accessCount": 1,
+      "lastAccessed": 1779229167379,
+      "type": "file"
+    },
+    {
+      "path": "src/adapters/anthropic-to-xai/response.ts",
+      "accessCount": 1,
+      "lastAccessed": 1779229187170,
+      "type": "file"
+    },
+    {
+      "path": "src/server.ts",
+      "accessCount": 1,
+      "lastAccessed": 1779229237655,
+      "type": "file"
+    },
+    {
+      "path": "src/services/stream-relay.ts",
+      "accessCount": 1,
+      "lastAccessed": 1779229288011,
+      "type": "file"
+    },
+    {
+      "path": "src/adapters/xai-to-anthropic/stream.ts",
+      "accessCount": 1,
+      "lastAccessed": 1779229330715,
+      "type": "file"
+    },
+    {
+      "path": "src/adapters/anthropic-to-xai/stream.ts",
+      "accessCount": 1,
+      "lastAccessed": 1779229366248,
+      "type": "file"
+    },
+    {
+      "path": "tests/unit/shared-tools.test.ts",
+      "accessCount": 1,
+      "lastAccessed": 1779229473886,
+      "type": "file"
+    },
+    {
+      "path": "tests/unit/shared-messages.test.ts",
+      "accessCount": 1,
+      "lastAccessed": 1779229503520,
+      "type": "file"
+    },
+    {
+      "path": "tests/unit/state-manager.test.ts",
+      "accessCount": 1,
+      "lastAccessed": 1779229525954,
+      "type": "file"
+    },
+    {
+      "path": "tests/unit/xai-to-anthropic-response.test.ts",
+      "accessCount": 1,
+      "lastAccessed": 1779229595101,
+      "type": "file"
+    },
+    {
+      "path": "tests/unit/anthropic-to-xai-request.test.ts",
+      "accessCount": 1,
+      "lastAccessed": 1779229615856,
+      "type": "file"
+    },
+    {
+      "path": "GETTING_STARTED.md",
+      "accessCount": 1,
+      "lastAccessed": 1779230067951,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

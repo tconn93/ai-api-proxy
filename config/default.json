@@ -1,0 +1,15 @@
+{
+  "xaiToAnthropic": {
+    "grok-4.3": "claude-sonnet-4-20250514",
+    "grok-4.1": "claude-sonnet-4-20250514",
+    "grok-4": "claude-opus-4-20250514",
+    "grok-3": "claude-sonnet-4-20250514",
+    "grok-3-mini": "claude-haiku-4-20250514"
+  },
+  "anthropicToXAI": {
+    "claude-sonnet-4-20250514": "grok-4.3",
+    "claude-opus-4-20250514": "grok-4",
+    "claude-haiku-4-20250514": "grok-3-mini",
+    "claude-3-5-sonnet-20241022": "grok-4.1"
+  }
+}

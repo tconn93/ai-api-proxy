@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"npx vitest run 2>&1\",\"timeout\":60000,\"description\":\"Run all tests\"}",
+  "error": "Exit code 1\n\n RUN  v2.1.9 /mnt/c/Users/tyler/projects/ai-api-proxy\n\n ✓ tests/unit/shared-messages.test.ts (10 tests) 3ms\n ✓ tests/unit/shared-tools.test.ts (13 tests) 4ms\n ✓ tests/unit/xai-to-anthropic-response.test.ts (4 tests) 3ms\n ✓ tests/unit/anthropic-to-xai-request.test.ts (5 tests) 2ms\n ❯ tests/unit/xai-to-anthropic-request.test.ts (11 tests | 1 failed) 18ms\n   × xai-to-anthropic request adapter > tool handling > warns on built-in tools 15ms\n     → Target cannot be null or undefined.\n ✓ t...",
+  "timestamp": "2026-05-19T22:28:10.836Z",
+  "retry_count": 1
+}
